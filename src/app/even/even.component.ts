@@ -5,12 +5,6 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './even.component.html',
   styleUrls: ['./even.component.css']
 })
-export class EvenComponent implements OnInit {
-
-  @Input() number: number;
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class EvenComponent  {
+  @Input() number: number; 
 }
